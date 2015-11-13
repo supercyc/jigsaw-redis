@@ -2,16 +2,23 @@
 .classpath
 .project
 .settings
+*.class
 
 #idea
 *.iml
 .idea/
 
+# Package Files #
+*.jar
+*.war
+*.ear
 #redis
 *.log
 *.pid
 *.rdb
 *.aof
 
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 #maven
 target
