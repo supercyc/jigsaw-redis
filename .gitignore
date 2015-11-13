@@ -1,0 +1,17 @@
+#eclipse
+.classpath
+.project
+.settings
+
+#idea
+*.iml
+.idea/
+
+#redis
+*.log
+*.pid
+*.rdb
+*.aof
+
+#maven
+target
